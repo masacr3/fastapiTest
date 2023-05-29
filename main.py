@@ -6,3 +6,6 @@ app = FastAPI()
 async def root():
     return {"mensaje" : "hello world"}
 
+@app.get("/marto")
+async def marto():
+    return { "mensaje" : "el codigo marto ha sido activado"}
