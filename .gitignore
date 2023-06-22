@@ -1,2 +1,3 @@
-/apitest-env
+/fastapi-env
 /__pycache__
+.env
